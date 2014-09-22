@@ -1,0 +1,52 @@
+wlan0     Scan completed :
+          Cell 01 - Address: 00:11:22:33:44:55
+                    Channel:6
+                    Frequency:2.437 GHz (Channel 6)
+                    Quality=32/70  Signal level=-78 dBm  
+                    Encryption key:on
+                    ESSID:"Wireless Network 1"
+                    Bit Rates:1 Mb/s; 2 Mb/s; 5.5 Mb/s; 11 Mb/s; 9 Mb/s
+                              18 Mb/s; 36 Mb/s; 54 Mb/s
+                    Bit Rates:6 Mb/s; 12 Mb/s; 24 Mb/s; 48 Mb/s
+                    Mode:Master
+                    Extra:tsf=0000048ab37999f9
+                    Extra: Last beacon: 276ms ago
+                    IE: Unknown: 0006466F6E7A6965
+                    IE: Unknown: 010882848B961224486C
+                    IE: Unknown: 030106
+                    IE: Unknown: 2A0102
+                    IE: Unknown: 32040C183060
+                    IE: Unknown: 2D1A6E1017FFFFFF0001000000000000000000000000000000000000
+                    IE: Unknown: 3D1606070700000000000000000000000000000000000000
+                    IE: Unknown: 3E0100
+                    IE: IEEE 802.11i/WPA2 Version 1
+                        Group Cipher : CCMP
+                        Pairwise Ciphers (1) : CCMP
+                        Authentication Suites (1) : PSK
+                    IE: Unknown: DD180050F2020101000003A4000027A4000042435E0062322F00
+                    IE: Unknown: 0B05000D467A12
+                    IE: Unknown: 7F0101
+                    IE: Unknown: DD07000C4300000000
+                    IE: Unknown: DD1E00904C336E1017FFFFFF0001000000000000000000000000000000000000
+                    IE: Unknown: DD1A00904C3406070700000000000000000000000000000000000000
+                    IE: Unknown: DD9D0050F204104A0001101044000101103B00010310470010BC329E001DD811B28601001DAAB28FF81021001852616C696E6B20546563686E6F6C6F67792C20436F72702E1023001C52616C696E6B20576972656C6573732041636365737320506F696E74102400065254323836301042000831323334353637381054000800060050F20400011011000952616C696E6B415053100800020084103C000100
+            Cell 02 - Address: FE:DC:BA:98:76:54
+                ESSID:"AB-Wireless-Guest"
+                Protocol:IEEE 802.11bgn
+                Mode:Master
+                Frequency:2.462 GHz (Channel 11)
+                Encryption key:on
+                Bit Rates:1 Mb/s; 2 Mb/s; 5.5 Mb/s; 11 Mb/s; 18 Mb/s
+                          24 Mb/s; 36 Mb/s; 54 Mb/s; 6 Mb/s; 9 Mb/s
+                          12 Mb/s; 48 Mb/s
+                Extra:wpa_ie=dd1c0050f20101000050f20202000050f2040050f20201000050f2020c00
+                IE: WPA Version 1
+                    Group Cipher : TKIP
+                    Pairwise Ciphers (2) : CCMP TKIP
+                    Authentication Suites (1) : PSK
+                Extra:rsn_ie=30180100000fac020200000fac04000fac020100000fac020c00
+                IE: IEEE 802.11i/WPA2 Version 1
+                    Group Cipher : TKIP
+                    Pairwise Ciphers (2) : CCMP TKIP
+                    Authentication Suites (1) : PSK
+                Signal level=43/100
