@@ -18,7 +18,7 @@ regexps = [
 def scan():
     cmd = ["iwlist", "scan"]
     proc = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-    points = proc.stdout.read()
+    points = proc.stdout.read().decode('utf-8')
     return points
 
 # Parses the response from the command "iwlist scan"
