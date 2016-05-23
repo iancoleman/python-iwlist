@@ -6,7 +6,7 @@ Python scanner and parser for wireless networks
 
 ```
 >>> import iwlist
->>> content = iwlist.scan()
+>>> content = iwlist.scan(interface='wlan0')
 >>> cells = iwlist.parse(content)
 ```
 
