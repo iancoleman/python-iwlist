@@ -1,0 +1,93 @@
+[
+    {
+        "cellnumber": "10",
+        "mac": "A0:21:B7:6A:13:64",
+        "essid": "Frank Kwok",
+        "mode": "Master",
+        "frequency": "2.437",
+        "frequency_units": "GHz",
+        "channel": "6",
+        "encryption": "on",
+        "signal_level": "22",
+        "signal_total": "70",
+        "db": "-88"
+    },
+    {
+        "cellnumber": "11",
+        "mac": "B8:08:D7:F7:B8:24",
+        "essid": "DODO-B81E",
+        "mode": "Master",
+        "frequency": "2.452",
+        "frequency_units": "GHz",
+        "channel": "9",
+        "encryption": "on",
+        "signal_level": "61",
+        "signal_total": "70",
+        "db": "-49"
+    },
+    {
+        "cellnumber": "12",
+        "mac": "00:60:64:ED:61:B4",
+        "essid": "Tengeriin ulaach",
+        "mode": "Master",
+        "frequency": "2.452",
+        "frequency_units": "GHz",
+        "channel": "9",
+        "encryption": "on",
+        "signal_level": "57",
+        "signal_total": "70",
+        "db": "-53"
+    },
+    {
+        "cellnumber": "13",
+        "mac": "FA:8F:CA:39:0A:E8",
+        "essid": "",
+        "mode": "Master",
+        "frequency": "2.452",
+        "frequency_units": "GHz",
+        "channel": "9",
+        "encryption": "off",
+        "signal_level": "53",
+        "signal_total": "70",
+        "db": "-57"
+    },
+    {
+        "cellnumber": "14",
+        "mac": "30:91:8F:99:2E:A1",
+        "essid": "Telstra992EA1",
+        "mode": "Master",
+        "frequency": "2.462",
+        "frequency_units": "GHz",
+        "channel": "11",
+        "encryption": "on",
+        "signal_level": "60",
+        "signal_total": "70",
+        "db": "-50"
+    },
+    {
+        "cellnumber": "15",
+        "mac": "32:91:8F:99:2E:A4",
+        "essid": "Fon WiFi",
+        "mode": "Master",
+        "frequency": "2.462",
+        "frequency_units": "GHz",
+        "channel": "11",
+        "encryption": "off",
+        "signal_level": "58",
+        "signal_total": "70",
+        "db": "-52"
+    },
+    {
+        "cellnumber": "16",
+        "mac": "32:91:8F:99:2E:A3",
+        "essid": "Telstra Air",
+        "mode": "Master",
+        "frequency": "2.462",
+        "frequency_units": "GHz",
+        "channel": "11",
+        "encryption": "off",
+        "signal_level": "57",
+        "signal_total": "70",
+        "db": "-53"
+    }
+]
