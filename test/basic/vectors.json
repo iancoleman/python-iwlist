@@ -8,9 +8,9 @@
         "frequency_units": "GHz",
         "channel": "6",
         "encryption": "on",
-        "signal_level": "32",
+        "signal_quality": "32",
         "signal_total": "70",
-        "db": "-78"
+        "signal_level_dBm": "-78"
     },
     {
         "cellnumber": "02",
@@ -22,7 +22,7 @@
         "frequency_units": "GHz",
         "channel": "11",
         "encryption": "on",
-        "signal_level": "43",
+        "signal_quality": "43",
         "signal_total": "100"
     }
 ]

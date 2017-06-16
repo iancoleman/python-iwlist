@@ -8,9 +8,9 @@
         "frequency_units": "GHz",
         "channel": "6",
         "encryption": "on",
-        "signal_level": "22",
+        "signal_quality": "22",
         "signal_total": "70",
-        "db": "-88"
+        "signal_level_dBm": "-88"
     },
     {
         "cellnumber": "11",
@@ -21,9 +21,9 @@
         "frequency_units": "GHz",
         "channel": "9",
         "encryption": "on",
-        "signal_level": "61",
+        "signal_quality": "61",
         "signal_total": "70",
-        "db": "-49"
+        "signal_level_dBm": "-49"
     },
     {
         "cellnumber": "12",
@@ -34,9 +34,9 @@
         "frequency_units": "GHz",
         "channel": "9",
         "encryption": "on",
-        "signal_level": "57",
+        "signal_quality": "57",
         "signal_total": "70",
-        "db": "-53"
+        "signal_level_dBm": "-53"
     },
     {
         "cellnumber": "13",
@@ -47,9 +47,9 @@
         "frequency_units": "GHz",
         "channel": "9",
         "encryption": "off",
-        "signal_level": "53",
+        "signal_quality": "53",
         "signal_total": "70",
-        "db": "-57"
+        "signal_level_dBm": "-57"
     },
     {
         "cellnumber": "14",
@@ -60,9 +60,9 @@
         "frequency_units": "GHz",
         "channel": "11",
         "encryption": "on",
-        "signal_level": "60",
+        "signal_quality": "60",
         "signal_total": "70",
-        "db": "-50"
+        "signal_level_dBm": "-50"
     },
     {
         "cellnumber": "15",
@@ -73,9 +73,9 @@
         "frequency_units": "GHz",
         "channel": "11",
         "encryption": "off",
-        "signal_level": "58",
+        "signal_quality": "58",
         "signal_total": "70",
-        "db": "-52"
+        "signal_level_dBm": "-52"
     },
     {
         "cellnumber": "16",
@@ -86,8 +86,8 @@
         "frequency_units": "GHz",
         "channel": "11",
         "encryption": "off",
-        "signal_level": "57",
+        "signal_quality": "57",
         "signal_total": "70",
-        "db": "-53"
+        "signal_level_dBm": "-53"
     }
 ]
