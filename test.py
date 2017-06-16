@@ -2,11 +2,17 @@ import json
 import iwlist
 import unittest
 
+def fileContent(filename):
+    f = open(filename)
+    content = f.read()
+    f.close()
+    return content
+
 class TestParse(unittest.TestCase):
 
     def setUp(self):
-        self.parsed = iwlist.parse(open("test/scan.txt").read())
-        self.expected = json.loads(open("test/vectors.json").read())
+        self.parsed = iwlist.parse(fileContent("test/scan.txt"))
+        self.expected = json.loads(fileContent("test/vectors.json"))
 
     def test_parse_length(self):
         self.assertEqual(len(self.expected), len(self.parsed))
