@@ -3,7 +3,7 @@ import subprocess
 
 cellNumberRe = re.compile(r"^Cell\s+(?P<cellnumber>.+)\s+-\s+Address:\s(?P<mac>.+)$")
 regexps = [
-    re.compile(r"^ESSID:\"(?P<essid>.+)\"$"),
+    re.compile(r"^ESSID:\"(?P<essid>.*)\"$"),
     re.compile(r"^Protocol:(?P<protocol>.+)$"),
     re.compile(r"^Mode:(?P<mode>.+)$"),
     re.compile(r"^Frequency:(?P<frequency>[\d.]+) (?P<frequency_units>.+) \(Channel (?P<channel>\d+)\)$"),
