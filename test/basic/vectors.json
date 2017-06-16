@@ -15,7 +15,7 @@
     {
         "cellnumber": "02",
         "mac": "FE:DC:BA:98:76:54",
-        "essid": "AB-Guest-Wifi",
+        "essid": "AB-Wireless-Guest",
         "protocol": "IEEE 802.11bgn",
         "mode": "Master",
         "frequency": "2.462",

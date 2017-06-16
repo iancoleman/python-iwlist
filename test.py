@@ -24,6 +24,9 @@ class TestParse(unittest.TestCase):
                 }
             self.cases.append(case)
 
+    def tearDown(self):
+        self.cases = []
+
     def test_parse_length(self):
         for case in self.cases:
             self.assertEqual(len(case["expected"]), len(case["parsed"]))
@@ -34,7 +37,7 @@ class TestParse(unittest.TestCase):
                 e = case["expected"][i]
                 p = case["parsed"][i]
                 for key in e:
-                    msg = "key missing: %s\n%s\ncellnumber: %s" % (key, case["name"], e["cellnumber"])
+                    msg = "\nkey is in expected but missing in parsed:\nkey: %s\ntestdir: %s\ncellnumber: %s" % (key, case["name"], e["cellnumber"])
                     self.assertTrue(key in p, msg)
 
     def test_cells_dont_have_extra_keys(self):
@@ -43,7 +46,18 @@ class TestParse(unittest.TestCase):
                 e = case["expected"][i]
                 p = case["parsed"][i]
                 for key in p:
-                    self.assertTrue(key in e)
+                    msg = "\nkey was parsed but missing in expected:\nkey: %s\ntestdir: %s\ncellnumber: %s" % (key, case["name"], e["cellnumber"])
+                    self.assertTrue(key in e, msg)
+
+    def test_cells_have_expected_values(self):
+        for case in self.cases:
+            for i in range(len(case["expected"])):
+                e = case["expected"][i]
+                for k in e:
+                    ev = e[k]
+                    pv = case["parsed"][i][k]
+                    msg = "\nwrong value for field:\ntestdir: %s\nfield: %s\ncellnumber: %s\nexpected: %s\nactual: %s" % (case["name"], k, e["cellnumber"], ev, pv)
+                    self.assertTrue(ev == pv, msg)
 
 if __name__ == '__main__':
     unittest.main()
