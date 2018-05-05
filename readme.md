@@ -24,7 +24,7 @@ Python scanner and parser for wireless networks
         "frequency": "2.437",
         "frequency_units": "GHz",
         "channel": "6",
-        "encryption": "on",
+        "encryption": "off",
         "signal_level": "32",
         "signal_total": "70",
         "db": "-78"
@@ -38,7 +38,7 @@ Python scanner and parser for wireless networks
         "frequency": "2.462",
         "frequency_units": "GHz",
         "channel": "11",
-        "encryption": "on",
+        "encryption": "wpa",
         "signal_level": "43",
         "signal_total": "100"
     }
